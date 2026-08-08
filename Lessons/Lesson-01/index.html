@@ -3,16 +3,156 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson - 01</title>
+
+    <title>VOLT X — Electric Performance</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <canvas id="3d"></canvas>
+    <canvas id="threeD"></canvas>
+
+    <div class="noise"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">VOLT<span>X</span></div>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#performance">Performance</a>
+        <a href="#design">Design</a>
+      </nav>
+
+      <button class="nav-btn">Reserve</button>
+    </header>
+
+    <!-- HERO -->
+    <main id="home">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">ELECTRIC PERFORMANCE / 2026</p>
+
+          <h1>
+            VOLT
+            <span>X</span>
+          </h1>
+
+          <p class="hero-description">
+            Pure electric performance engineered for the next generation of
+            driving.
+          </p>
+
+          <div class="hero-buttons">
+            <button class="primary-btn">
+              Explore the car
+              <span>↗</span>
+            </button>
+
+            <button class="secondary-btn">
+              Watch film
+              <span>▶</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- CAR LABEL -->
+        <div class="car-label">
+          <div class="line"></div>
+          <span>VOLT X / CONCEPT</span>
+        </div>
+
+        <!-- SCROLL -->
+        <div class="scroll">
+          <span>SCROLL TO EXPLORE</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- PERFORMANCE -->
+      <section id="performance" class="performance">
+        <div class="section-heading">
+          <p>PERFORMANCE</p>
+
+          <h2>
+            POWER WITHOUT
+            <span>COMPROMISE.</span>
+          </h2>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <strong>2.1</strong>
+            <span>SEC</span>
+            <p>0 — 100 KM/H</p>
+          </div>
+
+          <div class="stat">
+            <strong>1,020</strong>
+            <span>HP</span>
+            <p>MAX POWER</p>
+          </div>
+
+          <div class="stat">
+            <strong>480</strong>
+            <span>KM</span>
+            <p>RANGE</p>
+          </div>
+
+          <div class="stat">
+            <strong>320</strong>
+            <span>KM/H</span>
+            <p>TOP SPEED</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- DESIGN -->
+      <section id="design" class="design">
+        <div class="design-text">
+          <p>THE DESIGN</p>
+
+          <h2>
+            SCULPTED
+            <br />
+            BY AIR.
+          </h2>
+
+          <p class="design-description">
+            Every surface has been shaped by airflow. Nothing is unnecessary.
+            Every line has a purpose.
+          </p>
+
+          <button class="outline-btn">Discover the design →</button>
+        </div>
+      </section>
+
+      <!-- FINAL CTA -->
+      <section class="final">
+        <p>THE FUTURE IS READY.</p>
+
+        <h2>
+          ARE
+          <span>YOU?</span>
+        </h2>
+
+        <button class="primary-btn">
+          Reserve VOLT X
+          <span>↗</span>
+        </button>
+      </section>
+    </main>
+
+    <!-- CURSOR -->
+    <div class="cursor"></div>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/three.js/101/three.min.js"
       integrity="sha512-MzluaiqTHieej9sKOtlT5D5uog5n278iCAX/sr8Ms271OkiKptg1RZgRXRjhQ+v4yO3LcffdeeQfiUfMpduqeA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
     <script src="main.js"></script>
   </body>
 </html>
